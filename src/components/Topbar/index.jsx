@@ -10,7 +10,7 @@ const Topbar = ({ loginStatus, logOutAdmin }) => {
     const history = useHistory()
 
     return (<div className="topbar">
-        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe85XE6SrncVWlO_SYZ0mD6TV4c07-4qKMjsJ_DURer7chX7MxMKlRoYDA3RBqHApI1Eg&usqp=CAU" alt="pharmacy-management-software" /></div>
+        <div><img src="https://cdn.dribbble.com/users/2214129/screenshots/6098465/medicart.png" alt="pharmacy-management-software" /></div>
         <div className="topbar-menu">
             {loginStatus && <p onClick={() => {
                 localStorage.setItem('loginStatus', false)
