@@ -1,0 +1,52 @@
+.view_team {
+    background-color: rgb(236, 238, 238);
+    min-height: 100vh;
+}
+
+.team_container {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 18%;
+    text-align: center;
+    text-align: center;
+}
+
+.team_container_header,
+.sales-executive-card {
+    display: flex;
+    width: 90%;
+    margin-left: 10%;
+    font-weight: 600;
+    text-align: left;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+
+.team_container_header {
+    padding-right: 40px;
+
+}
+
+/* Executive card */
+
+.sales-executive-card {
+    font-weight: normal;
+    background-color: white;
+    padding: 20px 0px 20px 10px;
+    margin-top: 10px;
+}
+
+
+.sales_executive_fname,
+.sales_executive_lname,
+.sales_executive_dob,
+.sales_executive_experience {
+    width: 20%
+}
+
+.sales_executive_id,
+.sales_executive_gender {
+    width: 10%
+}

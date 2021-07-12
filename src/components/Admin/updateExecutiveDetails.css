@@ -1,0 +1,33 @@
+.add_executive_form {
+
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 50%;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(61, 61, 61, 0.8);
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.remove_update_form_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: rgb(141, 5, 5);
+}
+
+.remove_update_form_icon:hover {
+    background-color: rgb(185, 13, 13)
+}
+
+.remove_update_form_icon i {
+    font-size: 24px;
+
+}
